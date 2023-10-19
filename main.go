@@ -12,4 +12,5 @@ func main() {
 	fmt.Println(movieName)
 	movie.Review(movieName, 9.3)
 	ticket.BuyTicket(movieName)
+	movieName = movie.FindMovieName("tt0068646")
 }
